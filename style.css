@@ -213,3 +213,24 @@ ul{
     width: 95%;
   }
 }
+
+@media  only screen and (max-width: 700px) {
+  .intro-wrapper h1 {
+    font-size: 37px;
+  }
+  .myself {
+    width: 140px;
+    display: flex;
+    border-radius: 50%;
+    border: 4px solid #28334aff;
+    box-shadow: 2px 6px #28334aff;
+    margin-top: 250px;
+    margin-left: -50px;
+  }
+
+  .skills-info {
+    justify-content: none;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
